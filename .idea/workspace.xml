@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4757621c-8aac-483d-9225-b83301200bb5" name="Changes" comment="tutorial_LocLib 5-8">
-      <change afterPath="$PROJECT_DIR$/LocalLibrary/locallibrary/catalog/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LocalLibrary/locallibrary/catalog/templates/catalog/author_confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LocalLibrary/locallibrary/catalog/templates/catalog/author_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LocalLibrary/locallibrary/catalog/templates/catalog/book_confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LocalLibrary/locallibrary/catalog/templates/catalog/book_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LocalLibrary/locallibrary/catalog/templates/catalog/book_renew_librarian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LocalLibrary/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LocalLibrary/locallibrary/templates/registration/password_reset_complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LocalLibrary/locallibrary/templates/registration/password_reset_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LocalLibrary/locallibrary/templates/registration/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LocalLibrary/locallibrary/templates/registration/password_reset_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LocalLibrary/locallibrary/templates/registration/password_reset_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalLibrary/locallibrary/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/LocalLibrary/locallibrary/catalog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalLibrary/locallibrary/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/LocalLibrary/locallibrary/catalog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalLibrary/locallibrary/catalog/templates/base_generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/LocalLibrary/locallibrary/catalog/templates/base_generic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalLibrary/locallibrary/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LocalLibrary/locallibrary/catalog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalLibrary/locallibrary/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/LocalLibrary/locallibrary/catalog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalLibrary/locallibrary/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/LocalLibrary/locallibrary/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalLibrary/locallibrary/locallibrary/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LocalLibrary/locallibrary/locallibrary/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalLibrary/locallibrary/templates/registration/logged_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/LocalLibrary/locallibrary/templates/registration/logged_out.html" afterDir="false" />
-    </list>
+    <list default="true" id="4757621c-8aac-483d-9225-b83301200bb5" name="Changes" comment="tutorial_LocLib 8-9" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +145,7 @@
       <workItem from="1732040656991" duration="1662000" />
       <workItem from="1732081763509" duration="16017000" />
       <workItem from="1732169511415" duration="14433000" />
-      <workItem from="1732208110670" duration="2375000" />
+      <workItem from="1732208110670" duration="2697000" />
     </task>
     <task id="LOCAL-00001" summary="tutorial_LocLib 1-5">
       <option name="closed" value="true" />
@@ -184,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732099412055</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tutorial_LocLib 8-9">
+      <option name="closed" value="true" />
+      <created>1732211112082</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732211112082</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +180,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tutorial_LocLib 1-5" />
     <MESSAGE value="tutorial_LocLib 5-8" />
-    <option name="LAST_COMMIT_MESSAGE" value="tutorial_LocLib 5-8" />
+    <MESSAGE value="tutorial_LocLib 8-9" />
+    <option name="LAST_COMMIT_MESSAGE" value="tutorial_LocLib 8-9" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/practice$manage.coverage" NAME="manage Coverage Results" MODIFIED="1731996188045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LocalLibrary/locallibrary" />
