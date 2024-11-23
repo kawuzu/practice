@@ -86,6 +86,7 @@ class AuthorCreate(CreateView):
     fields = '__all__'
     initial={'date_of_death':'12/10/2016',}
 
+
 class AuthorUpdate(UpdateView):
     model = Author
     fields = ['first_name','last_name','date_of_birth','date_of_death']
@@ -106,3 +107,4 @@ class BookUpdate(UpdateView):
 class BookDelete(DeleteView):
     model = Book
     success_url = reverse_lazy('books')
+

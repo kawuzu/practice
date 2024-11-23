@@ -4,6 +4,8 @@ from django.urls import reverse
 import uuid
 from datetime import date
 from django.contrib.auth.models import User
+from django.core.exceptions import ValidationError
+from django.utils import timezone
 
 
 # Create your models here.
@@ -62,6 +64,7 @@ class BookInstance(models.Model):
     class Meta:
         ordering = ["due_back"]
         permissions = (("can_mark_returned", "set book as returned"),)
+
     def __str__(self):
         return '%s (%s)' % (self.id, self.book.title)
 
@@ -83,6 +86,17 @@ class Author(models.Model):
 
     def __str__(self):
         return '%s, %s' % (self.last_name, self.first_name)
+
+    def clean(self):
+        super().clean()  # Вызов родительской функции для очистки данных
+        if self.date_of_birth:
+            age = (timezone.now().date() - self.date_of_birth).days // 365
+            if age < 18:
+                raise ValidationError("age cannot be less than 18 years")
+
+        if self.date_of_death:
+            if self.date_of_death > timezone.now().date():
+                raise ValidationError("death date cannot be in the future")
 
 
 class Language(models.Model):
